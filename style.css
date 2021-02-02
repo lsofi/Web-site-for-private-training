@@ -1,0 +1,118 @@
+#col-header-description{
+    margin-top: 18%;
+}
+.header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
+    height: 130vh;
+    background-attachment: fixed;
+}
+#h1-header{
+    color: white;
+    margin-bottom: 1rem;
+}
+#h2-header{
+    color: aqua;
+    margin-bottom: 1rem;
+}
+#btn-header{
+    background-color: aqua;
+    margin-top: 1erm;
+    font-size: 24px;
+}
+.line{
+    height: 5px;
+    background-color: aqua;
+}
+.about{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
+    color:white;
+    background-attachment: fixed;
+}
+#line-small{
+    height: 5px;
+    background-color: aqua;
+    width: 80px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 470px;
+}
+#img-about{
+    margin-bottom: 100px;
+}
+.img-carousel{
+    min-height: 700px;
+    min-width: 700px;
+}
+#h1-carousel{
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+    font-size: 105px;
+}
+#h2-carousel{
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    text-align: left;
+    font-size: 40px;
+}
+.img-features{
+    max-height: 500px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+#text-features{
+    font-style: italic;
+    font-size: 30px;
+}
+.features{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 3rem;
+}
+.contact{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+#fab{
+    font-size: 55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: aqua;
+}
+.countes-section{
+    font-size: 50px;
+    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0)),url(    https://images.squarespace-cdn.com/content/v1/5a04f3bcd7bdce9b234ef876/1522181969363-TJS2LAKZXV8E035VCIST/ke17ZwdGBToddI8pDm48kMQs2m2ijENlnRCI35T13wF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ub5ubGHAWffUu4MtqgiyXoMmZa5A09w6H1YHqMo5pQJAIHGt97KZ1R7fzmJ85l_8Gw/123.jpeg?format=2500w);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+#a-footer{
+    color: aqua;
+    font-size: 50px;
+}
+#footer{
+    width: 100%;
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.411),  rgba(0, 0, 0, 0.411)),url(https://media.istockphoto.com/photos/fitness-or-bodybuilding-background-dumbbells-on-gym-floor-top-view-picture-id1134872858?k=6&m=1134872858&s=170667a&w=0&h=cG8IpJIxYHFUr1GYsxuGekp_HBPXwEnYIZd3gZZEoj0=);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.footer{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+.fab{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+#footer-span{
+    font-size: 30px;
+    color: white;
+}
+.btn-a{
+    color: aqua;
+}

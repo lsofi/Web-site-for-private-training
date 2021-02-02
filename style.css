@@ -3,7 +3,7 @@
 }
 .header{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
-    height: 130vh;
+    height: 700px;
     background-attachment: fixed;
 }
 #h1-header{
@@ -77,18 +77,31 @@
     background-attachment: fixed;
     color: white;
 }
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='aqua' stroke='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    border-radius: 2px;
+    height: 150px;
+    width: 110px;
+}
+.carousel-control-prev-icon{
+    border-radius: 2px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='aqua' stroke='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height: 150px;
+    width: 110px;
+}
 #fab{
     font-size: 55px;
     margin-top: 35px;
     margin-bottom: 35px;
     color: aqua;
 }
-.countes-section{
-    font-size: 50px;
+.counter-section{
+    font-size: 30px;
     background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0)),url(    https://images.squarespace-cdn.com/content/v1/5a04f3bcd7bdce9b234ef876/1522181969363-TJS2LAKZXV8E035VCIST/ke17ZwdGBToddI8pDm48kMQs2m2ijENlnRCI35T13wF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ub5ubGHAWffUu4MtqgiyXoMmZa5A09w6H1YHqMo5pQJAIHGt97KZ1R7fzmJ85l_8Gw/123.jpeg?format=2500w);
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    padding-bottom: 55px;
 }
 #a-footer{
     color: aqua;
@@ -99,6 +112,7 @@
     background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.411),  rgba(0, 0, 0, 0.411)),url(https://media.istockphoto.com/photos/fitness-or-bodybuilding-background-dumbbells-on-gym-floor-top-view-picture-id1134872858?k=6&m=1134872858&s=170667a&w=0&h=cG8IpJIxYHFUr1GYsxuGekp_HBPXwEnYIZd3gZZEoj0=);
     background-attachment: fixed;
     background-size: cover;
+    height: 200px;
 }
 .footer{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black),url(1.jpg);
@@ -111,7 +125,7 @@
 }
 #footer-span{
     font-size: 30px;
-    color: white;
+    color: white;  
 }
 .btn-a{
     color: aqua;

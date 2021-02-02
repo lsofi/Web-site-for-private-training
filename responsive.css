@@ -2,10 +2,26 @@
     #col-header-description{
         margin-top: -20px;
     }
+    .img-carousel{
+        min-height: 200px;
+        min-width: 200px;
+    }
+    #h1-carousel{
+        display: none;
+    }
+    #h2-carousel{
+        display: none;
+    }
 }
 @media (min-width: 575.98px) and (max-width: 767.98px) { 
     #col-header-description{
         margin-top: -20px;
+    }
+    #h1-carousel{
+        display: none;
+    }
+    #h2-carousel{
+        display: none;
     }
  }
  @media (min-width: 767.98px) and (max-width: 991.98px) { 
@@ -19,11 +35,28 @@
         margin-left: 55%;
         margin-top: 50px;
     }
+    #h1-carousel{
+        position: absolute;
+        bottom: 300px;
+        left: 60px;
+        font-size: 70px;
+    }
+    #h2-carousel{
+        position: absolute;
+        bottom: 200px;
+        left: 60px;
+        text-align: left;
+        font-size: 35px;
+    }
 }
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     #logo{
         margin-top: 15%;
         transform: scale(1.2);
+    }
+    #col-header-description{
+        margin-top: 200px;
+        transform: scale(1);
     }
   }
 

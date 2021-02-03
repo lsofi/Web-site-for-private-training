@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #col-header-description{
     margin-top: 18%;
 }
@@ -129,4 +132,12 @@
 }
 .btn-a{
     color: aqua;
+}
+nav{
+    box-shadow: 0px 2px 2px 0px aqua;
+    font-size: 20px;
+    opacity: 0;
+}
+.active{
+    border-bottom: 2px solid red;
 }
